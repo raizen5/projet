@@ -1,0 +1,279 @@
+*{
+	padding: 0;
+  margin: 0;
+}
+@keyframes scaled{
+    0%{
+      transform: scale(1);
+      box-shadow: rgb(117, 117, 117) 5px 5px 25px;
+    }
+    100%{
+      transform: scale(1.1);
+      box-shadow: rgb(117, 117, 117) 15px 15px 25px;
+    }
+  }
+  @keyframes inscaled{
+    0%{
+      transform: scale(1.1);
+      box-shadow: rgb(117, 117, 117) 15px 15px 25px;
+    }
+    100%{
+      transform: scale(1);
+      box-shadow: rgb(117, 117, 117) 5px 5px 25px;
+    }
+  }
+body{
+  background-image: linear-gradient(to top, rgb(216, 216, 216), rgb(133, 133, 133));
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 1000px;
+}
+nav {
+  list-style-type: none;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  background-color: #111;
+  height: 60px;
+  font-size: 25px;
+  box-shadow: rgb(65, 65, 65) 5px 5px 50px;
+}
+ul{
+  list-style-type: none;
+}
+.lnav{
+  float: left;
+  position: relative;
+  left: 15px;
+}
+.rnav{
+  float: right;
+  position: relative;
+  right: 15px;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(189, 189, 189);
+  text-align: center;
+  padding: 16px 25px;
+  text-decoration: none;
+  cursor: pointer;
+  animation: inscaled-nav 0.2s ease;
+}
+@keyframes scaled-nav{
+  0%{
+    transform: scale(1);
+  }
+  100%{
+    transform: scale(1.1);
+  }
+}
+@keyframes inscaled-nav{
+  0%{
+    transform: scale(1.1);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+li a:hover {
+  background-color: #333;
+  color: white;
+  animation: scaled-nav 0.2s ease;
+  transform: scale(1.1);
+}
+
+.card1{
+    height: 150px;
+    width: 200px;
+    top: 50px;
+    left: 80px;
+    position: relative;
+    box-shadow: rgb(117, 117, 117) 5px 5px 25px;
+    background-image: linear-gradient(to bottom, rgb(230, 230, 230), rgb(182, 182, 182));
+    animation: ease 0.4s inscaled;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.card2{
+    width: 200px;
+    height: 150px;
+    top: -160px;
+    left: 330px;
+    position: relative;
+    box-shadow: rgb(117, 117, 117) 5px 5px 25px;
+    background-image: linear-gradient(to bottom, rgb(230, 230, 230), rgb(182, 182, 182));
+    animation: ease 0.4s inscaled;
+    border-radius: 25px;
+}
+.card3{
+    height: 150px;
+    width: 200px;
+    top: -370PX;
+    left: 580PX;
+    position: relative;
+    box-shadow: rgb(117, 117, 117) 5px 5px 25px;
+    background-image: linear-gradient(to bottom, rgb(230, 230, 230), rgb(182, 182, 182));
+    animation: ease 0.4s inscaled;
+    border-radius: 25px;
+}
+.card4{
+    height: 150px;
+    width: 200px;
+    top: -580px;
+    left: 830px;
+    position: relative;
+    box-shadow: rgb(117, 117, 117) 5px 5px 25px;
+    background-image: linear-gradient(to bottom, rgb(230, 230, 230), rgb(182, 182, 182));
+    animation: ease 0.4s inscaled;
+    border-radius: 25px;
+}
+.card5{
+    height: 150px;
+    width: 200px;
+    top: -790px;
+    left: 1080px;
+    position: relative;
+    box-shadow: rgb(117, 117, 117) 5px 5px 25px;
+    background-image: linear-gradient(to bottom, rgb(230, 230, 230), rgb(182, 182, 182));
+    animation: ease 0.4s inscaled;
+    border-radius: 25px;
+}
+.card6{
+    height: 150px;
+    width: 200px;
+    top: -800px;
+    left: 80px;
+    position: relative;
+    box-shadow: rgb(117, 117, 117) 5px 5px 25px;
+    background-image: linear-gradient(to bottom, rgb(230, 230, 230), rgb(182, 182, 182));
+    animation: ease 0.4s inscaled;
+    border-radius: 25px;
+}
+.card7{
+    height: 150px;
+    width: 200px;
+    top: -1007PX;
+    left: 330px;
+    position: relative;
+    box-shadow: rgb(117, 117, 117) 5px 5px 25px;
+    background-image: linear-gradient(to bottom, rgb(230, 230, 230), rgb(182, 182, 182));
+    animation: ease 0.4s inscaled;
+    border-radius: 25px;
+}
+.card8{
+    height: 150px;
+    width: 200px;
+    top: -1220PX;
+    left: 580px;
+    position: relative;
+    box-shadow: rgb(117, 117, 117) 5px 5px 25px;
+    background-image: linear-gradient(to bottom, rgb(230, 230, 230), rgb(182, 182, 182));
+    animation: ease 0.4s inscaled;
+    border-radius: 25px;
+}
+.card9{
+    height: 150px;
+    width: 200px;
+    top: -1427px;
+    left: 830px;
+    position: relative;
+    box-shadow: rgb(117, 117, 117) 5px 5px 25px;
+    background-image: linear-gradient(to bottom, rgb(230, 230, 230), rgb(182, 182, 182));
+    animation: ease 0.4s inscaled;
+    border-radius: 25px;
+}
+.card10{
+    height: 150px;
+    width: 200px;
+    top: -1640PX;
+    left: 1080px;
+    position: relative;
+    box-shadow: rgb(117, 117, 117) 5px 5px 25px;
+    background-image: linear-gradient(to bottom, rgb(230, 230, 230), rgb(182, 182, 182));
+    animation: ease 0.4s inscaled;
+    border-radius: 25px;
+}
+.card11{
+    height: 150px;
+    width: 200px;
+    top: -1650px;
+    left: 330px;
+    position: relative;
+    box-shadow: rgb(117, 117, 117) 5px 5px 25px;
+    background-image: linear-gradient(to bottom, rgb(230, 230, 230), rgb(182, 182, 182));
+    animation: ease 0.4s inscaled;
+    border-radius: 25px;
+}
+.card12{
+    height: 150px;
+    width: 200px;
+    top: -1860px;
+    left: 580px;
+    position: relative;
+    box-shadow: rgb(117, 117, 117) 5px 5px 25px;
+    background-image: linear-gradient(to bottom, rgb(230, 230, 230), rgb(182, 182, 182));
+    animation: ease 0.4s inscaled;
+    border-radius: 25px;
+}
+.card13{
+    height: 150px;
+    width: 200px;
+    top: -1870px;
+    left: 830px;
+    position: relative;
+    box-shadow: rgb(117, 117, 117) 5px 5px 25px;
+    background-image: linear-gradient(to bottom, rgb(230, 230, 230), rgb(182, 182, 182));
+    animation: ease 0.4s inscaled;
+    border-radius: 25px;
+}
+.card1:hover, .card2:hover, .card3:hover, .card4:hover,
+.card5:hover, .card6:hover, .card7:hover, .card8:hover,
+.card9:hover, .card10:hover, .card11:hover, .card12:hover,
+.card13:hover{
+    animation: scaled 0.4s ease;
+    transform: scale(1.1);
+    box-shadow: rgb(117, 117, 117) 15px 15px 25px;
+}
+p{
+  position: relative;
+  top: 65px;
+  text-align: center;
+  margin-top: 60px;
+  color: #333;
+  font-size: 25px;
+}
+/*text hover of card 1*/
+.card1::before{
+    content: 'Mathématique';
+    position: relative;
+    top: 65px;
+    left: 25px;
+    text-align: center;
+    margin-top: 60px;
+    color: #333;
+    font-size: 25px;
+    transition: 0.5s;
+}
+.card1::after{
+    content: 'Cof : 3 // H : 4';
+    position: relative;
+    top: 65px;
+    left: 25px;
+    text-align: center;
+    margin-top: 60px;
+    color: #333;
+    font-size: 25px;
+    transition: 0.5s;
+}
+.card1:hover::before{
+    top: -30px;
+}
+.card1:hover::after{
+    top: -30px;
+}

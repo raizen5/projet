@@ -1,0 +1,93 @@
+*{
+	padding: 0;
+  margin: 0;
+}
+body{
+  background-image: linear-gradient(to top, rgb(216, 216, 216), rgb(133, 133, 133));
+  background-size: cover;
+  position: relative;
+  height: 3500px;
+}
+nav {
+  list-style-type: none;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  background-color: #111111;
+  height: 60px;
+  font-size: 25px;
+  box-shadow: rgb(65, 65, 65) 5px 5px 50px;
+}
+ul{
+  list-style-type: none;
+}
+.lnav{
+  float: left;
+  position: relative;
+  left: 15px;
+}
+.rnav{
+  float: right;
+  position: relative;
+  right: 15px;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(189, 189, 189);
+  text-align: center;
+  padding: 16px 25px;
+  text-decoration: none;
+  cursor: pointer;
+  animation: inscaled-nav 0.2s ease;
+}
+@keyframes scaled-nav{
+  0%{
+    transform: scale(1);
+  }
+  100%{
+    transform: scale(1.1);
+  }
+}
+@keyframes inscaled-nav{
+  0%{
+    transform: scale(1.1);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+li a:hover {
+  background-color: #333;
+  color: white;
+  animation: scaled-nav 0.2s ease;
+  transform: scale(1.1);
+ }
+.card {
+  box-shadow: 0 6px 4px 0 rgba(0,0,0,0);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 5px;
+  background-color: #d9d9d9
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  padding: 2px 16px;
+}
+.active{
+  background-color: #333;
+  color: white;
+  animation: scaled-nav 0.2s ease;
+  transform: scale(1.1);
+}

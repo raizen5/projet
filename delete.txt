@@ -1,0 +1,63 @@
+ #cls{
+  background-color:grey;
+  width: 850px;
+  border-radius:15px;  
+ }
+p{
+  background-color: grey;
+  width:500px;
+  border-radius:15px;
+  position:relative;
+  top:5px; 
+  padding:5px;
+  left:20px ;
+  margin: 7px;
+  font-size:25px;   
+}
+#cls:hover{
+  animation: scaled 0.4s ease;
+  transform: scale(1.1);
+  box-shadow: rgb(117, 117, 117) 15px 15px 25px;
+}
+p:hover{
+  animation: scaled 0.4s ease;
+  transform: scale(1.1);
+  box-shadow: rgb(117, 117, 117) 15px 15px 25px;
+}
+img{
+  border-style:solid;
+  border-width:2px;
+  border-radius:30px;
+  position: relative;
+  left: 570px;
+  bottom:145px;   
+}
+form{
+  position: relative;
+  left:450px;
+  bottom: 110px;
+}
+img:hover{
+  animation: scaled 0.4s ease;
+  transform: scale(1.1);
+  box-shadow: rgb(117, 117, 117) 15px 15px 25px;
+}
+#paragraphe2{
+  position: relative;
+  bottom:150px;
+  left:200px ;
+
+}
+.photo{
+  width: 150px;
+  height: 150px;
+  position: relative;
+  bottom: 300px;
+}
+#phototrois{
+  width: 200px;
+  height: 200px;
+  position: relative;
+  bottom: 155px;
+  right: -20n0px;
+}

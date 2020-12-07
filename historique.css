@@ -1,0 +1,211 @@
+*{
+	padding: 0;
+  margin: 0;
+}
+body{
+  background-image: linear-gradient(to top, rgb(216, 216, 216), rgb(133, 133, 133));
+  background-repeat: no-repeat;
+  position: static;
+  background-size: cover;
+  overflow: hidden;
+  height: 1000px;
+}
+nav {
+  list-style-type: none;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  background-color: #111;
+  height: 60px;
+  font-size: 25px;
+  box-shadow: rgb(65, 65, 65) 5px 5px 50px;
+}
+ul{
+  list-style-type: none;
+}
+.lnav{
+  float: left;
+  position: relative;
+  left: 15px;
+}
+.rnav{
+  float: right;
+  position: relative;
+  right: 15px;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(189, 189, 189);
+  text-align: center;
+  padding: 16px 25px;
+  text-decoration: none;
+  cursor: pointer;
+  animation: inscaled-nav 0.2s ease;
+}
+@keyframes scaled-nav{
+  0%{
+    transform: scale(1);
+  }
+  100%{
+    transform: scale(1.1);
+  }
+}
+@keyframes inscaled-nav{
+  0%{
+    transform: scale(1.1);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+li a:hover {
+  background-color: #333;
+  color: white;
+  animation: scaled-nav 0.2s ease;
+  transform: scale(1.1);
+ }
+/*--end of navigation bar--*/
+@keyframes scaled{
+  0%{
+    transform: scale(1);
+    box-shadow: rgb(117, 117, 117) 5px 5px 25px;
+  }
+  100%{
+    transform: scale(1.1);
+    box-shadow: rgb(117, 117, 117) 15px 15px 25px;
+  }
+}
+@keyframes inscaled{
+  0%{
+    transform: scale(1.1);
+    box-shadow: rgb(117, 117, 117) 15px 15px 25px;
+  }
+  100%{
+    transform: scale(1);
+    box-shadow: rgb(117, 117, 117) 5px 5px 25px;
+  }
+}
+/*paragraphe 1*/
+.p1{
+  height: 200px;
+  width: 350px;
+  position: relative;
+  top: 50px;
+  left: 80px;
+  font-size: 25px;
+  text-align: center;
+  padding: 20px;
+  background-image: linear-gradient(to bottom, rgb(230, 230, 230), rgb(182, 182, 182));
+  border-radius: 25px;
+  box-shadow: rgb(117, 117, 117) 5px 5px 25px;
+  animation: ease 0.4s inscaled;
+}
+
+.p1:hover{
+  animation: scaled 0.4s ease;
+  transform: scale(1.1);
+  box-shadow: rgb(117, 117, 117) 15px 15px 25px;
+}
+
+.img1{
+  height: 150px;
+  width: 200px;
+  position: relative;
+  top: -190px;
+  left: 530px;
+  background-image: linear-gradient(to bottom, rgb(230, 230, 230), rgb(182, 182, 182));
+  border-radius: 25px;
+  box-shadow: rgb(117, 117, 117) 5px 5px 25px;
+  animation: ease 0.4s inscaled;
+}
+.img1:hover{
+  animation: scaled 0.4s ease;
+  transform: scale(1.1);
+  box-shadow: rgb(117, 117, 117) 15px 15px 25px;
+}
+/*paragraphe 2*/
+.p2{
+  height: 150px;
+  width: 350px;
+  position: relative;
+  top: -30px;
+  left: 80px;
+  font-size: 25px;
+  text-align: center;
+  padding: 20px;
+  background-image: linear-gradient(to bottom, rgb(230, 230, 230), rgb(182, 182, 182));
+  border-radius: 25px;
+  box-shadow: rgb(117, 117, 117) 5px 5px 25px;
+  animation: ease 0.4s inscaled;
+}
+
+.p2:hover{
+  animation: scaled 0.4s ease;
+  transform: scale(1.1);
+  box-shadow: rgb(117, 117, 117) 15px 15px 25px;
+}
+.img2{
+  height: 150px;
+  width: 120px;
+  position: relative;
+  top: -360px;
+  left: 570px;
+  background-image: linear-gradient(to bottom, rgb(230, 230, 230), rgb(182, 182, 182));
+  border-radius: 25px;
+  box-shadow: rgb(117, 117, 117) 5px 5px 25px;
+  animation: ease 0.4s inscaled;
+}
+.img2:hover{
+  animation: scaled 0.4s ease;
+  transform: scale(1.1);
+  box-shadow: rgb(117, 117, 117) 15px 15px 25px;
+}
+
+/*paragraphe 3*/
+.p3{
+  height: 450px;
+  width: 450px;
+  position: relative;
+  top: -685px;
+  left: 780px;
+  font-size: 25px;
+  text-align: center;
+  padding: 25px;
+  background-image: linear-gradient(to bottom, rgb(230, 230, 230), rgb(182, 182, 182));
+  border-radius: 25px;
+  box-shadow: rgb(117, 117, 117) 5px 5px 25px;
+  animation: ease 0.4s inscaled;
+}
+
+.p3:hover{
+  animation: scaled 0.4s ease;
+  transform: scale(1.1);
+  box-shadow: rgb(117, 117, 117) 15px 15px 25px;
+}
+.img3{
+  height: 150px;
+  width: 200px;
+  position: relative;
+  top: -835px;
+  left: 530px;
+  background-image: linear-gradient(to bottom, rgb(230, 230, 230), rgb(182, 182, 182));
+  border-radius: 25px;
+  box-shadow: rgb(117, 117, 117) 5px 5px 25px;
+  animation: ease 0.4s inscaled;
+  filter: grayscale(1);
+}
+.img3:hover{
+  animation: scaled 0.4s ease;
+  transform: scale(1.1);
+  box-shadow: rgb(117, 117, 117) 15px 15px 25px;
+}
+.active{
+  background-color: #333;
+  color: white;
+  animation: scaled-nav 0.2s ease;
+  transform: scale(1.1);
+}
